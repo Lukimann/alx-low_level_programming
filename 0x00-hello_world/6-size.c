@@ -6,11 +6,6 @@
 */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
 
 	printf("Size of a char: %lu bytes(S)\n",  (unsigned long)sizeof(a));
 	printf("Size of an int: %lu bytes(S)\n",  (unsigned long)sizeof(b));
