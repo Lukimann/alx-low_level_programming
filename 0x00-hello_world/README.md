@@ -1,1 +1,1 @@
-Task 1 of C programming
+first task
