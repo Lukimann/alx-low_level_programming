@@ -10,12 +10,12 @@
 
 char *_strchr(char *s, char c)
 {
-	int onezy;
+	int index;
 
-	for (onezy = 0; s[onezy] >= '\0'; onezy++)
+	for (index = 0; s[index] >= '\0'; index++)
 	{
-		if (s[onezy] == c)
-			return (s + onezy);
+		if (s[index] == c)
+			return (s + index);
 	}
 
 	return ('\0');
