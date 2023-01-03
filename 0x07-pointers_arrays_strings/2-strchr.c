@@ -10,11 +10,13 @@
 
 char *_strchr(char *s, char c)
 {
-	char *result = strchr(s, c);
+	int onezy;
 
-	if (result == NULL)
+	for (onezy = 0; s[onezy] >= '\0'; onezy++)
 	{
-		return (NULL);
+		if (s[onezy] == c)
+			return (s + onezy);
 	}
-	return (result);
+
+	return ('\0');
 }
