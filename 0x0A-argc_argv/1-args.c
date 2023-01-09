@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Entry point
+ * Main - this is a function
  * @argc: a parameter
  * @argv: an array
  * Return: Always 0 (success)
