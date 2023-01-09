@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - this is a function
+ * main - this is a function to print its name
  * @argc: a parameter
  * @argv: an array
  * Return: Always 0 (success)
